@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"build": "mkdir -p dist && cp index.html dist",
-		"deploy": "wrangler deploy --assets dist"
+		"deploy": "wrangler deploy --assets dist && sleep 60"
 	},
 	"devDependencies": {
 		"wrangler": "^4.83.0"
