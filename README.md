@@ -1,4 +1,4 @@
-# mini-static-worker
+# mini-static-worker-2
 
 very small static site
 no deps
